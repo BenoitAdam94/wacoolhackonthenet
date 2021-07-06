@@ -1,0 +1,309 @@
+/*
+Theme Name: WACOOL - Hack On The Net
+Theme URI: https://github.com/BenoitAdam94/wacooltheme
+Author: Laurent CASSEL & Benoit SAKOTE
+Author URI: https://www.spiralstatic.eu
+Description: Hack On The Net is a theme adapted from an old website. It's a typical design from the old age of internet and 2000 era.
+Tags : hack, net, internet, security
+Version: 0.1
+Requires at least: 5.3.2
+Tested up to: 5.3.2
+Requires PHP: 7.2.14
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wacoolhackonthenet
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+header, main, footer{
+	color:white;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*
+div, nav{
+	border:1px solid gray;
+}*/
+
+.divred{
+	border:1px solid red;
+}
+
+/* a */
+
+a{
+	color:white;
+	font-weight: bold;
+}
+
+a:hover{
+	color:yellow;
+}
+
+.border-color-gray{
+	border:1px solid gray;
+}
+
+.bg-color-gray{
+	background-color: gray;
+}
+
+.bg-color-brown{
+	color:#eee; /* font color */
+	background-color:#a62829;
+}
+
+.bg-color-black{
+	background-color:black;
+	border:1px solid gray;
+}
+
+.bg-color-yellow{
+	background-color:yellow;
+}
+
+.bg-color-customblue{
+	background-color:#3399CC;
+}
+
+
+.color-black{
+	color:black;
+}
+
+.red{
+	border:1px;
+	border-color:red;
+}
+
+.conteneur{
+	width:1080px;
+}
+
+.conteneurfooter{
+	width:868px;
+}
+
+.card-title {
+	color:red;
+	text-shadow: 2px 0 0 #D7D7C1, 2px 2px 0 #D7D7C1, 0 2px 0 #D7D7C1, -2px 2px 0 #D7D7C1, -2px 0 0 #D7D7C1, -2px -2px 0 #D7D7C1, 0 -2px 0 #D7D7C1, 2px -2px 0 #D7D7C1;
+	text-transform: uppercase;
+	font-size:2rem;
+}
+
+
+/* H2 */
+
+h2{
+	text-align: center;
+}
+
+h2 a{
+	color:white;
+	font-size:2rem;
+}
+
+
+
+/* NAV / Menus */
+
+.menu_font_alegreya{
+	font-family: 'Alegreya', serif;
+	text-align :center;
+	font-size: 1.10rem;
+	text-transform: uppercase;
+}
+
+.menu_font_alegreya a{
+	color:white;
+}
+
+.menu_font_alegreya ul{
+	list-style: none; /* Remove dots for <ul> */
+	display: inline; /* Needed for perfect center */
+}
+
+.menu_font_alegreya a:hover{ /* Hover behavior */
+	background-color:#6B6B52;
+	padding-left:1px;
+	padding-right:1px;
+	text-decoration: none; /* remove underline */
+	transition-duration:0.8s;
+}
+
+/* wp_list_pages */
+
+.page_item{
+	list-style-type: none;
+}
+
+
+/* wp_caption */
+
+.wp-caption {
+	border:1px solid black;
+}
+
+.wp-caption-text{
+	text-align: center;
+}
+
+/* screen-reader-text */
+
+.screen-reader-text{
+	color:chartreuse;
+}
+
+/* gallery-caption */
+
+.gallery-caption{
+	border:1px solid slateblue;
+}
+
+/* .bypostauthor */
+
+.bypostauthor{
+	color:turquoise;
+}
+
+/* Align images */ 
+
+.alignright{
+ float:right;
+}
+
+.alignleft{
+	float:left;
+}
+
+.aligncenter{
+	float:none;
+}
+
+
+/************************************************
+Search form
+************************************************/
+
+input{
+	text-align: left !important;
+}
+
+
+/************************************************
+Comment
+************************************************/
+
+textarea {
+	display:flex;
+	flex:0 0 auto;
+	flex-flow:row wrap;
+	align-items:center;
+	margin-bottom:0}
+
+input {
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+color: #fff;
+background-color: #007bff;
+border-color: #557bff;
+  }
+
+
+
+
+
+/************************************************
+Social Media
+************************************************/
+
+.social-icons {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.social-icons li {
+	float: left;
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.social-icons li a {
+	display: block;
+	color: #666666;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-decoration: none;
+	line-height: 45px;
+	min-width: 45px;
+	margin: 0px;
+	padding: 0px;
+}
+.social-icons li a:hover {
+	color: #000000;
+	background: #444444;
+	background: rgba(255, 255, 255, 0.24);
+}
+.social-icons li a::before {
+	font-family: 'FontAwesome';
+	font-size: 25px;
+	font-weight: normal;
+	content: '\f0c1';
+}
+.social-icons li a span {
+	display: none;
+}
+.social-icons li a[href*="facebook.com"]::before		{ content: '\f09a'; }
+.social-icons li a[href*="twitter.com"]::before 		{ content: '\f099'; }
+.social-icons li a[href*="plus.google.com"]::before 	{ content: '\f0d5'; }
+.social-icons li a[href*="linkedin.com"]::before	 	{ content: '\f0e1'; }
+.social-icons li a[href*="github.com"]::before		 	{ content: '\f113'; }
+.social-icons li a[href*="dribbble.com"]::before		{ content: '\f17d'; }
+.social-icons li a[href*="foursquare.com"]::before		{ content: '\f180'; }
+.social-icons li a[href*="pinterest.com"]::before		{ content: '\f0d2'; }
+.social-icons li a[href*="wordpress.com"]::before		{ content: '\f19a'; }
+.social-icons li a[href*="youtube.com"]::before			{ content: '\f16a'; }
+.social-icons li a[href*="vine.co"]::before				{ content: '\f1ca'; }
+.social-icons li a[href*="instagram.com"]::before		{ content: '\f16d'; }
+.social-icons li a[href*="stackexchange.com"]::before	{ content: '\f18d'; }
+.social-icons li a[href*="spotify.com"]::before			{ content: '\f1bc'; }
+.social-icons li a[href*="soundcloud.com"]::before			{ content: '\f1be'; }
+.social-icons li a[href*="last.fm"]::before			{ content: '\f202'; }
+.social-icons li a[href*="amazon.com"]::before			{ content: '\f270'; }
+.social-icons li a[href*="flickr.com"]::before			{ content: '\f16e'; }
+.social-icons li a[href*="vimeo.com"]::before			{ content: '\f27d'; }
+.social-icons li a[href*="yelp.com"]::before			{ content: '\f1e9'; }
+.social-icons li a[href*="mailto:"]::before				{ content: '\f0e0'; }
+.social-icons li a[href$="/feed/"]::before				{ content: '\f09e'; }
+
+
+
+/* Front Page */
+
+.wacoolhackonthenet-black{
+	background-color: black;
+}
+
+/* Menu Icon */
+
+.wacool-menu-icon {
+	color : white;
+}
